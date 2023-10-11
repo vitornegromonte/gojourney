@@ -9,6 +9,10 @@ func main() {
 		i = i + 1
 	}
 
+	// A implementação de um laço for requer que seja seguida uma certa estrutura:
+	// inicialização:  j := 7;
+	// condição: j <= 9;
+	// execução pós iteração: j++ (soma +1 em j para cada iteração de laço)
 	for j := 7; j <= 9; j++ {
 		fmt.Println(j)
 	}
